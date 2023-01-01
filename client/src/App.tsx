@@ -3,8 +3,10 @@ import { Navbar, Footer, Hero, Services, Transactions, Loader } from './componen
 const App = () => {
   return (
     <div className="min-h-screen">
-      <Navbar />
-      <Hero />
+      <div className="gradient-bg-hero">
+        <Navbar />
+        <Hero />
+      </div>
       <Services />
       <Transactions />
       <Footer />
